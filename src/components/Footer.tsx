@@ -1,13 +1,11 @@
+import React from "react";
 import { Link } from "react-scroll";
 
-function Footer() {
-  let date = new Date();
+const Footer: React.FC = () => {
+  const date = new Date();
   return (
-    <div
-      className="flex flex-col "
-      id="Section5"
-    >
-      <div className="flex flex-col items-center rounded-t-xl justify-between w-full  py-8  shadow-lg bg-gray-800 sm:px-10 sm:py-8  lg:space-y-0">
+    <div className="flex flex-col" id="Section5">
+      <div className="flex flex-col items-center rounded-t-xl justify-between w-full py-8 shadow-lg bg-gray-800 sm:px-10 sm:py-8 lg:space-y-0">
         <Link
           to="heroSection"
           smooth={true}
@@ -34,6 +32,6 @@ function Footer() {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;

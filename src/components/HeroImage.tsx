@@ -1,13 +1,13 @@
 import React from "react";
 
-function HeroImage() {
+const HeroImage: React.FC = () => {
   return (
     <img
-      className="mb-4 md:w-[360px] bg-transparent lg:w-[400px] xl:w-[480px] "
+      className="mb-4 md:w-[360px] bg-transparent lg:w-[400px] xl:w-[480px]"
       src="https://tailwindcomponents.com/svg/website-designer-bro.svg"
-      alt=""
+      alt="Hero"
     />
   );
-}
+};
 
 export default HeroImage;

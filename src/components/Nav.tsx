@@ -1,14 +1,15 @@
-import { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import Logo from "../images/logojohndoe.png";
 import { RiMenuLine } from "react-icons/ri";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-scroll";
 import Toggle from "./Toggle";
 
-function Nav() {
-  const [sidebar, setSidebar] = useState(false);
-  const [navbar, setNavbar] = useState(false);
+const Nav: React.FC = () => {
+  const [sidebar, setSidebar] = useState<boolean>(false);
+  const [navbar, setNavbar] = useState<boolean>(false);
+
   const variants = {
     open: { opacity: 1, x: 0 },
     closed: { opacity: 0, x: "-100%" },
@@ -24,6 +25,7 @@ function Nav() {
 
   useEffect(() => {
     window.addEventListener("scroll", changeBackground);
+    return () => window.removeEventListener("scroll", changeBackground);
   }, []);
 
   return (
