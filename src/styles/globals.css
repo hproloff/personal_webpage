@@ -60,7 +60,15 @@ body {
   }
 
   .socialLink {
-    @apply flex items-center justify-center bg-white hover:shadow-lg shadow-2xl w-14 h-14 rounded-2xl p-3.5 cursor-pointer border border-transparent hover:border-gray-200;
+    @apply flex items-center justify-center hover:shadow-lg shadow-2xl w-14 h-14 rounded-2xl p-3.5 cursor-pointer border border-transparent hover:border-gray-200;
+    background-color: #F6F8FB; /* Light mode background color */
+    transition: background-color 0.3s ease;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .socialLink {
+      background-color: #1A202C; /* Dark mode background color */
+    }
   }
 
   .active {
@@ -81,13 +89,6 @@ body {
   }
 }
 
-.profile-picture {
-  width: 150px; /* Adjust as needed */
-  height: 150px; /* Adjust as needed */
-  border-radius: 50%; /* Makes the image circular */
-  border: 3px solid #fff; /* Optional border */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional shadow */
-}
 
 .contact-button, .resume-button {
   background-color: #5C637C; /* Example background color */
