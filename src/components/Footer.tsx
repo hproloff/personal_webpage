@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
             © {date.getFullYear()} All right reserved
           </span>
           <span>
-            <a href="#">YourName</a>
+            <a href="#">Harrison Roloff</a>
           </span>
         </span>
       </div>

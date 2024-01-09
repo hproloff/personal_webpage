@@ -1,5 +1,5 @@
-const fullName = "John Doe";
-const positionTitle = "Full Stack Developer";
+const fullName = "Harrison Roloff";
+const positionTitle = "[Title]";
 
 
 export { fullName, positionTitle };
