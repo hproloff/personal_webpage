@@ -88,3 +88,18 @@ body {
   border: 3px solid #fff; /* Optional border */
   box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional shadow */
 }
+
+.contact-button, .resume-button {
+  background-color: #5C637C; /* Example background color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.contact-button:hover, .resume-button:hover {
+  transform: scale(1.05);
+  background-color: #4b5268; /* Slightly darker background on hover */
+}

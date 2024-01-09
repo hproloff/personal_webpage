@@ -2,42 +2,64 @@ import React from "react";
 
 const SocialButtons: React.FC = () => {
   return (
-    <div className="flex pt-5 space-x-5 ">
+    <div className="flex justify-center md:justify-start pt-5 space-x-5">
+      {/* Instagram */}
       <a
-        href="#"
+        href="#" // Insert Instagram link
         target="_blank"
-        className="socialLink hover:animate-pulse hover:shadow-md ease-in-out bg-custom-lightGray"
+        rel="noopener noreferrer"
+        className="socialLink hover:animate-pulse hover:shadow-md ease-in-out"
       >
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png"
-          alt="John Doe"
-          className=""
+          src="/instagram_icon.png" // Path to Instagram icon
+          alt="Instagram"
+          className="w-7 h-7" // Adjust size as needed
         />
       </a>
+
+      {/* LinkedIn */}
       <a
-        href="#"
+        href="#" // Insert LinkedIn link
         target="_blank"
-        className="socialLink hover:animate-pulse hover:shadow-md ease-in-out bg-custom-lightGray"
+        rel="noopener noreferrer"
+        className="socialLink hover:animate-pulse hover:shadow-md ease-in-out"
       >
         <img
-          src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png"
-          alt="John Doe"
-          className=""
+          src="linkedin_icon.png" // Path to LinkedIn icon
+          alt="LinkedIn"
+          className="w-7 h-7"
         />
       </a>
+
+      {/* Facebook */}
       <a
-        href="#"
+        href="#" // Insert Facebook link
         target="_blank"
-        className="socialLink hover:animate-pulse hover:shadow-md ease-in-out bg-custom-lightGray"
+        rel="noopener noreferrer"
+        className="socialLink hover:animate-pulse hover:shadow-md ease-in-out"
       >
         <img
-          src="https://cdn.icon-icons.com/icons2/1826/PNG/512/4202110facebooklogosocialsocialmedia-115707_115594.png"
-          alt="John Doe"
-          className=""
+          src="/facebook_icon.png" // Path to Facebook icon
+          alt="Facebook"
+          className="w-7 h-7"
+        />
+      </a>
+
+      {/* GitHub */}
+      <a
+        href="#" // Insert GitHub link
+        target="_blank"
+        rel="noopener noreferrer"
+        className="socialLink hover:animate-pulse hover:shadow-md ease-in-out"
+      >
+        <img
+          src="/github_icon.png" // Path to GitHub icon
+          alt="GitHub"
+          className="w-7 h-7"
         />
       </a>
     </div>
   );
-}
+};
 
 export default SocialButtons;
