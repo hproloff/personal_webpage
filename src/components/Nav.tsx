@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Logo from "../images/logojohndoe.png";
+// import Logo from "../images/logojohndoe.png";
 import { RiMenuLine } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { IoMdClose } from "react-icons/io";
@@ -133,7 +133,6 @@ const Nav: React.FC = () => {
         <div className=" dark:bg-gray-900 flex items-center h-screen px-4 w-80 sm:w-96 bg-[#F6F8FB] flex-col overflow-y-scroll hide-scrollbar shadow-2xl bg-opacity-60 backdrop-filter backdrop-blur-md">
           <div className="flex items-center justify-between w-full py-8 dark:bg-gray-900">
             <div className="flex items-center space-x-2 dark:bg-gray-900">
-              <img src={Logo} alt="John Doe" className="w-10 sm:w-12" />
               <h3 className="dark:bg-gray-900 text-xl text-[#5C637C] font-light">
                 Your<span className="font-semibold">Name</span>
               </h3>

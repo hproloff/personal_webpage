@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: "Jura", sans-serif;
+  font-family: "Merriweather", sans-serif;
   overflow-x: hidden;
 }
 @keyframes customEnterOverlayAnimation {
@@ -79,4 +78,12 @@ body {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
   }
+}
+
+.profile-picture {
+  width: 150px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
+  border-radius: 50%; /* Makes the image circular */
+  border: 3px solid #fff; /* Optional border */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional shadow */
 }
