@@ -7,9 +7,8 @@ import Nav from "../components/Nav";
 import Projects from "../components/Projects";
 import Profile from "../components/Profile";
 
-import Section2 from "../components/Section2";
-import Section3 from "../components/Section3";
-import Section5 from "../components/Section5";
+import Education from "../components/Education";
+
 
 const Home: React.FC = () => {
   return (
@@ -22,11 +21,11 @@ const Home: React.FC = () => {
 
       <div className="flex flex-col dark:bg-gray-900">
         <Nav />
+
         <Profile />
         <Projects />
-        <Section2 />
-        <Section3 />
-        <Section5 />
+        <Education />
+
         <Footer />
       </div>
     </div>

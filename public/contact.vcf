@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Harrison Roloff
+N;CHARSET=UTF-8:Roloff;Harrison;;;
+EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:hproloff@gmail.com
+TEL;TYPE=CELL:+1 414 335 9650
+TITLE;CHARSET=UTF-8:Student
+ORG;CHARSET=UTF-8:UW-Madison
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/harrison-roloff/
+REV:2024-01-10T19:01:16.612Z
+END:VCARD

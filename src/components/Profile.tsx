@@ -26,8 +26,12 @@ const ProfileSection: React.FC = () => {
           Short bio goes here. Describe yourself in a few sentences.
         </motion.p>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 justify-center md:justify-start">
-          <button className="contact-button">Contact</button>
-          <button className="resume-button">Download Resume</button>
+          <a href="/contact.vcf" download className="contact-button">
+            Download Contact
+          </a>
+          <a href="/resume.pdf" download className="resume-button">
+            Download Resume
+          </a>
         </div>
       </div>
 
