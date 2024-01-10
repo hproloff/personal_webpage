@@ -11,7 +11,7 @@ const Section4: React.FC = () => {
             Projects
           </h4>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
             {data[2]?.project?.map((pro, i) => (
               <Card
                 key={pro.id}
@@ -29,4 +29,3 @@ const Section4: React.FC = () => {
 };
 
 export default Section4;
-
