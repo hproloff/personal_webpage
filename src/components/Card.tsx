@@ -31,14 +31,12 @@ const Card: React.FC<CardProps> = ({ title, description, photos, link }) => {
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
     >
-      <div className="relative w-full h-60"> {/* Set a fixed height */}
+      <div className="relative w-full h-60 rounded-lg overflow-hidden">
         <Image
-          layout="fill"
-          objectFit="cover" // This will cover the area and clip the image as needed
           src={photos[currentPhotoIndex]}
           alt={title}
-          className="rounded-lg" // Apply rounded edges to the image
-
+          layout="fill"
+          objectFit="cover"
         />
       </div>
 

@@ -39,7 +39,7 @@ const Nav: React.FC = () => {
             Projects
           </Link>
           <Link to="Section2" spy={true} smooth={true} offset={-90} duration={500} activeClass="active" className="dark:bg-gray-900 navLink">
-            Education
+            Experiences
           </Link>
         </div>
 

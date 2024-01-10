@@ -3,24 +3,108 @@
     "education": [
       {
         "id": 1,
-        "university": "University X",
-        "degree": "Computer Engineering",
-        "date": "22-01-2022",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+        "university": "University of Wisconsin-Madison",
+        "degree": "Data Science Student",
+        "date": "Jan 2022 - May 2024",
+        "description": "Active member of CS Nest and Badger Future Founders."
       },
       {
         "id": 2,
-        "university": "University X",
-        "degree": "Bachelor Degree",
-        "date": "22-01-2018",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+        "university": "Founder",
+        "degree": "Univise.org",
+        "date": "Sept 2023 - Present",
+        "description": "LLM research, model implementation using Retrieval Augmented Generation, application development. Market research and technology commericalization evaluation. Promotion efforts. "
       },
       {
         "id": 3,
-        "university": "University X",
-        "degree": "High School Degree",
-        "date": "22-01-2015",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+        "university": "X-Centric IT Solutions",
+        "degree": "Marketing, Sales, Analytics",
+        "date": "Summer 2023",
+        "description": ""
+      },
+      {
+        "id": 4,
+        "university": "RIA Advisory",
+        "degree": "Frontend Web Development",
+        "date": "Summer 2023",
+        "description": "Learned Angular web development framework, used git, specialized in AG-Grid JavaScript concepts. Integrated AG-Grid tables and functionality onto customer-facing Data Integration and Migration Hub."
+      },
+      {
+        "id": 5,
+        "university": "Invision Social Marketing",
+        "degree": "Brand Development",
+        "date": "June - Dec 2022",
+        "description": "Influencer acquisition campaign. Gathered and edited content for multiple brands, designed mockups, and negotiated with manufacturers."
+      },
+      {
+        "id": 6,
+        "university": "Renaissant Inc.",
+        "degree": "Market Research, Data Analysis",
+        "date": "June - August 2022",
+        "description": "Performed market research through polling relevant industry professionals. Wrote user manual for R2 platform. Simulated test data and graphical analyses using R and Excel"
+      },
+      {
+        "id": 7,
+        "university": "Settle Down Tavern",
+        "degree": "Host and Barback",
+        "date": "Mar - July 2022",
+        "description": "Learned the importance of positive first impressions on customers. Practiced prioritization and improvisation skills to adapt to changing restaurant conditions."
+      },
+      {
+        "id": 8,
+        "university": "The Old Fashioned",
+        "degree": "Busser and Barback",
+        "date": "Mar - July 2022",
+        "description": "Attended to customers needs while keeping the restaurant clean. Increased overall restaurant efficiency through delegating appropriate tasks to coworkers."
+      },
+      {
+        "id": 9,
+        "university": "ARCC Programs",
+        "degree": "Volunteer, Travel (Peru + Ecuador)",
+        "date": "Fall 2021",
+        "description": "Full immersion in the Spanish language and local culture."
+      },
+      {
+        "id": 10,
+        "university": "Bradford Beach Volleyball Club",
+        "degree": "Founder and Head Coach",
+        "date": "Summers 2020, 2021",
+        "description": "Led all marketing efforts via email, text campaigns, and cold-calling to recruit 80+ participants. Created website, online payment system, custom t-shirts and volleyballs for each participants. Managed a team of 5 employees/coaches throughout 9 camps over 4 weeks"
+      },
+      {
+        "id": 11,
+        "university": "University of Denver",
+        "degree": "Business Administration Student",
+        "date": "Fall 2020 - Spring 2021",
+        "description": "Innovation and Entrepreneurship Living and Learning Community."
+      },
+      {
+        "id": 12,
+        "university": "Rocky Mountain Photography",
+        "degree": "Drone Construction Documentation",
+        "date": "Sep 2020 - Jan 2021",
+        "description": " Moved SEO ranking into the top 3 on Google by creating backlinks and blog posts. Generated 4 new revenue streams through construction documentation in the Denver area. Captured, edited, and produced 21 construction site videos leveraging drones to showcase developments."
+      },
+      {
+        "id": 13,
+        "university": "Marquette University High School",
+        "degree": "High School Education",
+        "date": "Fall 2016 - Spring 2020",
+        "description": "First honors all eight semesters. 2-time Kairos retreat leader. Active member of Jesuit Honor Society, tutoring students weekly. Weekly service in after school program at Highland Community School in Milwaukee."
+      },
+      {
+        "id": 14,
+        "university": "ACT Tutoring Business",
+        "degree": "Founder and Tutor",
+        "date": "Jan 2020 - Sep 2020",
+        "description": " Improved 23 paid clients testing results an average of 3 points."
+      },
+      {
+        "id": 15,
+        "university": "Lake Park Tennis",
+        "degree": "Coach",
+        "date": "Summers 2016 - 2020",
+        "description": "Assistant coach."
       }
     ]
   },
@@ -32,7 +116,7 @@
         "title": "Stock Optimization",
         "photos": [
           "/projects/stock_opt/stock_opt.png",
-          "/projects/stock_opt/stock_opt2.png",
+          "/projects/stock_opt/stock_opt4.png",
           "/projects/stock_opt/stock_opt3.png"
         ],
         "link": "https://github.com/hproloff/final_proj_cs524/blob/main/extra/project.ipynb",
@@ -40,39 +124,49 @@
       },
       {
         "id": 2,
-        "title": "Volleyball Camps",
+        "title": "Univise",
         "photos": [
-          "/projects/bradfordbvc/bradfordbvc.png",
-          "/projects/bradfordbvc/bradfordbvc2.png"
+          "/projects/univise/univise.png",
+          "/projects/univise/univise2.png",
+          "/projects/univise/univise3.png",
+          "/projects/univise/univise4.png"        
         ],
-        "link": "https://comidaandes.wixsite.com/2021",
-        "description": "To continue my love for the sport, I organized  volleyball camps, managed coaches, recruited participants and ran camps."
+        "link": "https://univise.org",
+        "description": "Transforming the academic advising industry with a free, 24/7-access LLM-powered chatbot tool."
       },
       {
         "id": 3,
         "title": "Comida Andes",
         "photos": [
           "/projects/comidaandes/comidaandes.png",
-          "/projects/comidaandes/comidaandes2.png"
+          "/projects/comidaandes/comidaandes2.png",
+          "/projects/comidaandes/comidaandes3.jpg",
+          "/projects/comidaandes/comidaandes4.jpg"
         ],
         "link": "https://comidaandes.wixsite.com/website-3",
         "description": "During my semester in Peru, fundraised and kickstarted local chef Johan's online presence."
       },
       {
         "id": 4,
-        "title": "Univise",
+        "title": "Volleyball Camps",
         "photos": [
-          "/projects/univise/univise.png"        
+          "/projects/bradfordbvc/bradfordbvc2.png",
+          "/projects/bradfordbvc/bradfordbvc3.jpg",
+          "/projects/bradfordbvc/bradfordbvc4.jpg",
+          "/projects/bradfordbvc/bradfordbvc5.jpg",
+          "/projects/bradfordbvc/bradfordbvc6.jpg"
         ],
-        "link": "https://univise.org",
-        "description": "Transforming the academic advising industry with a free, 24/7-access LLM-powered chatbot tool."
+        "link": "https://comidaandes.wixsite.com/2021",
+        "description": "To continue my love for the sport, I organized  beach volleyball camps, managed coaches, and recruited participants."
       },
       {
         "id": 5,
         "title": "Aerial Photography",
         "photos": [
           "/projects/rockymountain/rmp.jpg",
-          "/projects/rockymountain/rmp2.jpg"        
+          "/projects/rockymountain/rmp2.jpg",
+          "/projects/rockymountain/rmp3.jpg",
+          "/projects/rockymountain/rmp4.jpg"          
         ],
         "link": "https://rockymountainphotography.com",
         "description": "During my 2020 year in Denver, I enjoyed capturing shots of developing suburbs and construction sites using drones and cessna aircraft."

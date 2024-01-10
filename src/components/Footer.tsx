@@ -14,16 +14,16 @@ const Footer: React.FC = () => {
           className="flex items-center space-x-3 cursor-pointer"
         >
           <h3 className="hidden text-2xl font-light text-white md:flex">
-            Your<span className="font-semibold">Name</span>
+            Harrison<span className="font-semibold">Roloff</span>
           </h3>
         </Link>
 
         <span className="hidden text-base font-light text-white md:flex lg:text-lg">
-          © {date.getFullYear()} All right reserved - YourName
+          © {date.getFullYear()} All right reserved | Last Updated, Jan 10 2024
         </span>
         <span className="flex flex-col items-center space-y-2 text-sm font-normal text-white md:hidden">
           <span className="text-xs text-custom-lightGray">
-            © {date.getFullYear()} All right reserved
+            © {date.getFullYear()} All right reserved | Last Updated, Jan 10 2024
           </span>
           <span>
             <a href="#">Harrison Roloff</a>
