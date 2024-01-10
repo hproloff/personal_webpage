@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { fullName, positionTitle } from "../utils/data";
 import HeroImage from "./HeroImage";
-import Signature from "./Signature";
 import SocialButtons from "./SocialButtons";
 import React from "react";
 
