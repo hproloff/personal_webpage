@@ -17,7 +17,7 @@ const Section4: React.FC = () => {
                 key={pro.id}
                 title={pro.title}
                 description={pro.description}
-                photo={pro.photo}
+                photos={pro.photos}
                 link={pro.link}
               />
             ))}

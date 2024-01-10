@@ -24,53 +24,58 @@
       }
     ]
   },
-  {
-    "professionalexp": [
-      {
-        "id": 1,
-        "company": "Company X",
-        "position": "Full stack Js developer",
-        "date": "22-01-2022",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
-      },
-      {
-        "id": 2,
-        "company": "Company X",
-        "position": "Web Developer",
-        "date": "22-01-2022",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
-      }
-    ]
-  },
+  {},
   {
     "project": [
       {
         "id": 1,
-        "title": "Project X",
-        "photo": "https://firasjerbi.me/_next/static/images/airbnb_clone-69559d72c0ee495fd7876479179bcba1.png",
-        "link": "https://airbnb-nextjs-gamma.vercel.app/",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
+        "title": "Stock Optimization",
+        "photos": [
+          "/projects/stock_opt/stock_opt.png",
+          "/projects/stock_opt/stock_opt2.png",
+          "/projects/stock_opt/stock_opt3.png"
+        ],
+        "link": "https://github.com/hproloff/final_proj_cs524/blob/main/extra/project.ipynb",
+        "description": "Combining my interests in data science and finance to produce a comprehensive report on Modern Portfolio Theory."
       },
       {
         "id": 2,
-        "title": "Project X",
-        "photo": "https://firasjerbi.me/_next/static/images/airbnb_clone-69559d72c0ee495fd7876479179bcba1.png",
-        "link": "https://airbnb-nextjs-gamma.vercel.app/",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+        "title": "Volleyball Camps",
+        "photos": [
+          "/projects/bradfordbvc/bradfordbvc.png",
+          "/projects/bradfordbvc/bradfordbvc2.png"
+        ],
+        "link": "https://comidaandes.wixsite.com/2021",
+        "description": "To continue my love for the sport, I organized  volleyball camps, managed coaches, recruited participants and ran camps."
       },
       {
         "id": 3,
-        "title": "Project X",
-        "photo": "https://firasjerbi.me/_next/static/images/airbnb_clone-69559d72c0ee495fd7876479179bcba1.png",
-        "link": "https://airbnb-nextjs-gamma.vercel.app/",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+        "title": "Comida Andes",
+        "photos": [
+          "/projects/comidaandes/comidaandes.png",
+          "/projects/comidaandes/comidaandes2.png"
+        ],
+        "link": "https://comidaandes.wixsite.com/website-3",
+        "description": "During my semester in Peru, fundraised and kickstarted local chef Johan's online presence."
       },
       {
         "id": 4,
-        "title": "Project X",
-        "photo": "https://firasjerbi.me/_next/static/images/airbnb_clone-69559d72c0ee495fd7876479179bcba1.png",
-        "link": "https://airbnb-nextjs-gamma.vercel.app/",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, "
+        "title": "Univise",
+        "photos": [
+          "/projects/univise/univise.png"        
+        ],
+        "link": "https://univise.org",
+        "description": "Transforming the academic advising industry with a free, 24/7-access LLM-powered chatbot tool."
+      },
+      {
+        "id": 5,
+        "title": "Aerial Photography",
+        "photos": [
+          "/projects/rockymountain/rmp.jpg",
+          "/projects/rockymountain/rmp2.jpg"        
+        ],
+        "link": "https://rockymountainphotography.com",
+        "description": "During my 2020 year in Denver, I enjoyed capturing shots of developing suburbs and construction sites using drones and cessna aircraft."
       }
     ]
   }
