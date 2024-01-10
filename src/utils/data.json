@@ -20,7 +20,7 @@
         "university": "X-Centric IT Solutions",
         "degree": "Marketing, Sales, Analytics",
         "date": "Summer 2023",
-        "description": ""
+        "description": "Explored SEO methods like guest blogging, content creation, and more. Competitor SEO analysis using Regex, Pandas, and Visualization packages in Python. Sales development representative for Cybersecurity services."
       },
       {
         "id": 4,
@@ -41,7 +41,7 @@
         "university": "Renaissant Inc.",
         "degree": "Market Research, Data Analysis",
         "date": "June - August 2022",
-        "description": "Performed market research through polling relevant industry professionals. Wrote user manual for R2 platform. Simulated test data and graphical analyses using R and Excel"
+        "description": "Performed market research through polling relevant industry professionals. Wrote user manual for R2 platform. Simulated test data and graphical analyses using R and Excel."
       },
       {
         "id": 7,
@@ -62,14 +62,14 @@
         "university": "ARCC Programs",
         "degree": "Volunteer, Travel (Peru + Ecuador)",
         "date": "Fall 2021",
-        "description": "Full immersion in the Spanish language and local culture."
+        "description": "Traveled to Puno, Cusco, Machu Picchu, Lima in Peru; La Paz, the Amazon jungle, and the Galapagos Islands in Ecuador. Hiked portion of the Incan trail, explored capital cities, performed service work (home restoration, youth education), and was immersed in local language and culture."
       },
       {
         "id": 10,
         "university": "Bradford Beach Volleyball Club",
         "degree": "Founder and Head Coach",
         "date": "Summers 2020, 2021",
-        "description": "Led all marketing efforts via email, text campaigns, and cold-calling to recruit 80+ participants. Created website, online payment system, custom t-shirts and volleyballs for each participants. Managed a team of 5 employees/coaches throughout 9 camps over 4 weeks"
+        "description": "Led all marketing efforts via email, text campaigns, and cold-calling to recruit 80+ participants. Created website, online payment system, custom t-shirts and volleyballs for each participant. Managed a team of 5 employees/coaches throughout 9 camps over 4 weeks."
       },
       {
         "id": 11,
@@ -83,14 +83,14 @@
         "university": "Rocky Mountain Photography",
         "degree": "Drone Construction Documentation",
         "date": "Sep 2020 - Jan 2021",
-        "description": " Moved SEO ranking into the top 3 on Google by creating backlinks and blog posts. Generated 4 new revenue streams through construction documentation in the Denver area. Captured, edited, and produced 21 construction site videos leveraging drones to showcase developments."
+        "description": "Moved SEO ranking into the top 3 for relevant keywords by creating backlinks and blog posts. Generated 4 new revenue streams through construction documentation in the Denver area. Captured, edited, and produced 21 construction site videos leveraging drones to showcase developments."
       },
       {
         "id": 13,
         "university": "Marquette University High School",
         "degree": "High School Education",
         "date": "Fall 2016 - Spring 2020",
-        "description": "First honors all eight semesters. 2-time Kairos retreat leader. Active member of Jesuit Honor Society, tutoring students weekly. Weekly service in after school program at Highland Community School in Milwaukee."
+        "description": "First honors all eight semesters. 2-time Kairos retreat leader. Active member of Jesuit Honor Society, tutoring students weekly. Weekly volunteering for after-school program at Highland Community School in Milwaukee."
       },
       {
         "id": 14,
@@ -104,7 +104,7 @@
         "university": "Lake Park Tennis",
         "degree": "Coach",
         "date": "Summers 2016 - 2020",
-        "description": "Assistant coach."
+        "description": "Assistant coach, managing drills and participant safety."
       }
     ]
   },
