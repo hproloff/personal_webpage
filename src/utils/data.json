@@ -170,6 +170,18 @@
         ],
         "link": "https://rockymountainphotography.com",
         "description": "During my 2020 year in Denver, I enjoyed capturing shots of developing suburbs and construction sites using drones and cessna aircraft."
+      },
+      {
+        "id": 6,
+        "title": "EDEM Valencia, Spain",
+        "photos": [
+          "/projects/edem/edem.jpg",
+          "/projects/edem/edem2.jpg",
+          "/projects/edem/edem3.jpg",
+          "/projects/edem/edem4.jpg"          
+        ],
+        "link": "https://edem.eu/",
+        "description": "Participated in a 2-week entrepreneurial pitch competition completely immersed in Spanish language."
       }
     ]
   }
