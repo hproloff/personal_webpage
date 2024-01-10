@@ -29,7 +29,7 @@ const ProfileSection: React.FC = () => {
           <a href="/contact.vcf" download className="contact-button">
             Download Contact
           </a>
-          <a href="/resume.pdf" download className="resume-button">
+          <a href="/harrison_roloff_resume.pdf" download className="resume-button">
             Download Resume
           </a>
         </div>
