@@ -5,9 +5,9 @@ import { fullName } from "../utils/data";
 
 const ProfileSection: React.FC = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between px-8 pt-8 pb-16 sm:px-16">
+    <div className="flex flex-col items-center justify-between px-8 pt-8 pb-16 sm:px-16">
       {/* Text Section */}
-      <div className="text-center md:text-left space-y-3 md:space-y-6 text-[#5C637C] xl:border-l-8 xl:pl-8 xl:border-gray-200 py-8 md:w-1/2 order-last md:order-none">
+      <div className="text-center space-y-3 md:space-y-6 text-[#5C637C] xl:border-l-8 xl:pl-8 xl:border-gray-200 py-8 md:w-full">
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -34,20 +34,6 @@ const ProfileSection: React.FC = () => {
           </a>
         </div>
       </div>
-
-      {/* Profile Picture Section */}
-      <motion.div
-        className="w-full md:w-[360px] lg:w-[400px] xl:w-[480px] mt-8 md:mt-0 order-first md:order-none"
-        initial={{ opacity: 0, x: 100 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 2 }}
-      >
-        <img
-          className="w-full h-auto rounded-lg shadow-lg mx-auto"
-          src="/headshot.jpg"
-          alt="Profile"
-        />
-      </motion.div>
     </div>
   );
 };

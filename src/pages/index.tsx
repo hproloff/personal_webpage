@@ -5,6 +5,7 @@ import Nav from "../components/Nav";
 import Projects from "../components/Projects";
 import Profile from "../components/Profile";
 import Education from "../components/Education";
+import HeroImage from "../components/HeroImage";
 
 const Home: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const Home: React.FC = () => {
 
       <div className="flex flex-col dark:bg-gray-900">
         <Nav />
+        <HeroImage />
         <Profile />
         <Projects />
         <Education />
