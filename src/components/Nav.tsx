@@ -36,10 +36,10 @@ const Nav: React.FC = () => {
         {/* Navigation Links */}
         <div className="items-center flex space-x-4 dark:bg-gray-900">
           <Link to="Section4" spy={true} smooth={true} offset={-90} duration={500} activeClass="active" className="dark:bg-gray-900 navLink">
-            Projects
+            Portfolio
           </Link>
-          <Link to="Section2" spy={true} smooth={true} offset={-90} duration={500} activeClass="active" className="dark:bg-gray-900 navLink">
-            Experiences
+          <Link to="Commissions" spy={true} smooth={true} offset={-90} duration={500} activeClass="active" className="dark:bg-gray-900 navLink">
+            Commissions
           </Link>
         </div>
 

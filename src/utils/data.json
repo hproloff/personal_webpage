@@ -7,181 +7,58 @@
         "degree": "Data Science Student",
         "date": "Jan 2022 - May 2024",
         "description": "Active member of CS Nest and Badger Future Founders."
-      },
-      {
-        "id": 2,
-        "university": "Founder",
-        "degree": "Univise.org",
-        "date": "Sept 2023 - Present",
-        "description": "LLM research, model implementation using Retrieval Augmented Generation, application development. Market research and technology commericalization evaluation. Promotion efforts. "
-      },
-      {
-        "id": 3,
-        "university": "X-Centric IT Solutions",
-        "degree": "Marketing, Sales, Analytics",
-        "date": "Summer 2023",
-        "description": "Explored SEO methods like guest blogging, content creation, and more. Competitor SEO analysis using Regex, Pandas, and Visualization packages in Python. Sales development representative for Cybersecurity services."
-      },
-      {
-        "id": 4,
-        "university": "RIA Advisory",
-        "degree": "Frontend Web Development",
-        "date": "Summer 2023",
-        "description": "Learned Angular web development framework, used git, specialized in AG-Grid JavaScript concepts. Integrated AG-Grid tables and functionality onto customer-facing Data Integration and Migration Hub."
-      },
-      {
-        "id": 5,
-        "university": "Invision Social Marketing",
-        "degree": "Brand Development",
-        "date": "June - Dec 2022",
-        "description": "Influencer acquisition campaign. Gathered and edited content for multiple brands, designed mockups, and negotiated with manufacturers."
-      },
-      {
-        "id": 6,
-        "university": "Renaissant Inc.",
-        "degree": "Market Research, Data Analysis",
-        "date": "June - August 2022",
-        "description": "Performed market research through polling relevant industry professionals. Wrote user manual for R2 platform. Simulated test data and graphical analyses using R and Excel."
-      },
-      {
-        "id": 7,
-        "university": "Settle Down Tavern",
-        "degree": "Host and Barback",
-        "date": "Mar - July 2022",
-        "description": "Learned the importance of positive first impressions on customers. Practiced prioritization and improvisation skills to adapt to changing restaurant conditions."
-      },
-      {
-        "id": 8,
-        "university": "The Old Fashioned",
-        "degree": "Busser and Barback",
-        "date": "Mar - July 2022",
-        "description": "Attended to customers needs while keeping the restaurant clean. Increased overall restaurant efficiency through delegating appropriate tasks to coworkers."
-      },
-      {
-        "id": 9,
-        "university": "ARCC Programs",
-        "degree": "Volunteer, Travel (Peru + Ecuador)",
-        "date": "Fall 2021",
-        "description": "Traveled to Puno, Cusco, Machu Picchu, Lima in Peru; La Paz, the Amazon jungle, and the Galapagos Islands in Ecuador. Hiked portion of the Incan trail, explored capital cities, performed service work (home restoration, youth education), and was immersed in local language and culture."
-      },
-      {
-        "id": 10,
-        "university": "Bradford Beach Volleyball Club",
-        "degree": "Founder and Head Coach",
-        "date": "Summers 2020, 2021",
-        "description": "Led all marketing efforts via email, text campaigns, and cold-calling to recruit 80+ participants. Created website, online payment system, custom t-shirts and volleyballs for each participant. Managed a team of 5 employees/coaches throughout 9 camps over 4 weeks."
-      },
-      {
-        "id": 11,
-        "university": "University of Denver",
-        "degree": "Business Administration Student",
-        "date": "Fall 2020 - Spring 2021",
-        "description": "Innovation and Entrepreneurship Living and Learning Community."
-      },
-      {
-        "id": 12,
-        "university": "Rocky Mountain Photography",
-        "degree": "Drone Construction Documentation",
-        "date": "Sep 2020 - Jan 2021",
-        "description": "Moved SEO ranking into the top 3 for relevant keywords by creating backlinks and blog posts. Generated 4 new revenue streams through construction documentation in the Denver area. Captured, edited, and produced 21 construction site videos leveraging drones to showcase developments."
-      },
-      {
-        "id": 13,
-        "university": "Marquette University High School",
-        "degree": "High School Education",
-        "date": "Fall 2016 - Spring 2020",
-        "description": "First honors all eight semesters. 2-time Kairos retreat leader. Active member of Jesuit Honor Society, tutoring students weekly. Weekly volunteering for after-school program at Highland Community School in Milwaukee."
-      },
-      {
-        "id": 14,
-        "university": "ACT Tutoring Business",
-        "degree": "Founder and Tutor",
-        "date": "Jan 2020 - Sep 2020",
-        "description": " Improved 23 paid clients testing results an average of 3 points."
-      },
-      {
-        "id": 15,
-        "university": "Lake Park Tennis",
-        "degree": "Coach",
-        "date": "Summers 2016 - 2020",
-        "description": "Assistant coach, managing drills and participant safety."
       }
     ]
   },
-  {},
   {
     "project": [
       {
         "id": 1,
         "title": "Stock Optimization",
         "photos": [
-          "/projects/stock_opt/stock_opt.png",
-          "/projects/stock_opt/stock_opt4.png",
-          "/projects/stock_opt/stock_opt3.png"
+          "/projects/stock_opt/stock_opt.png"
         ],
-        "link": "https://github.com/hproloff/final_proj_cs524/blob/main/extra/project.ipynb",
-        "description": "Combining my interests in data science and finance to produce a comprehensive report on Modern Portfolio Theory."
+        "description": "Combining my interests in data science and finance to produce a comprehensive report on Modern Portfolio Theory.",
+        "medium": "Painting",
+        "date": "Jan 2022 - May 2024",
+        "size": "8 inches by 15 inches"
       },
       {
         "id": 2,
         "title": "Univise",
         "photos": [
-          "/projects/univise/univise.png",
-          "/projects/univise/univise2.png",
-          "/projects/univise/univise3.png",
-          "/projects/univise/univise4.png"        
+          "/projects/univise/univise.png"      
         ],
-        "link": "https://univise.org",
-        "description": "Transforming the academic advising industry with a free, 24/7-access LLM-powered chatbot tool."
-      },
+        "description": "Transforming the academic advising industry with a free, 24/7-access LLM-powered chatbot tool.",
+        "medium": "Painting",
+        "date": "Jan 2022 - May 2024",
+        "size": "8 inches by 15 inches"
+      }
+    ]
+  },
+  { "project":
+    [
       {
-        "id": 3,
+        "id": 1,
         "title": "Comida Andes",
         "photos": [
-          "/projects/comidaandes/comidaandes.png",
-          "/projects/comidaandes/comidaandes2.png",
-          "/projects/comidaandes/comidaandes3.jpg",
-          "/projects/comidaandes/comidaandes4.jpg"
+          "/projects/comidaandes/comidaandes.png"
         ],
-        "link": "https://comidaandes.wixsite.com/website-3",
-        "description": "During my semester in Peru, fundraised and kickstarted local chef Johan's online presence."
+        "description": "During my semester in Peru, fundraised and kickstarted local chef Johan's online presence.",
+        "medium": "Painting",
+        "date": "Jan 2022 - May 2024",
+        "size": "8 inches by 15 inches"
       },
       {
-        "id": 4,
+        "id": 2,
         "title": "Volleyball Camps",
         "photos": [
-          "/projects/bradfordbvc/bradfordbvc2.png",
-          "/projects/bradfordbvc/bradfordbvc3.jpg",
-          "/projects/bradfordbvc/bradfordbvc4.jpg",
-          "/projects/bradfordbvc/bradfordbvc5.jpg",
-          "/projects/bradfordbvc/bradfordbvc6.jpg"
+          "/projects/bradfordbvc/bradfordbvc2.png"
         ],
-        "link": "https://comidaandes.wixsite.com/2021",
-        "description": "To continue my love for the sport, I organized  beach volleyball camps, managed coaches, and recruited participants."
-      },
-      {
-        "id": 5,
-        "title": "Aerial Photography",
-        "photos": [
-          "/projects/rockymountain/rmp.jpg",
-          "/projects/rockymountain/rmp2.jpg",
-          "/projects/rockymountain/rmp3.jpg",
-          "/projects/rockymountain/rmp4.jpg"          
-        ],
-        "link": "https://www.rockymountainphotography.com/services/drone-denver/",
-        "description": "During my 2020 year in Denver, I enjoyed capturing shots of developing suburbs and construction sites using drones and cessna aircraft."
-      },
-      {
-        "id": 6,
-        "title": "EDEM Valencia, Spain",
-        "photos": [
-          "/projects/edem/edem.jpg",
-          "/projects/edem/edem2.jpg",
-          "/projects/edem/edem3.jpg",
-          "/projects/edem/edem4.jpg"          
-        ],
-        "link": "https://edem.eu/",
-        "description": "Participated in a 2-week entrepreneurial pitch competition completely immersed in Spanish language."
+        "description": "To continue my love for the sport, I organized  beach volleyball camps, managed coaches, and recruited participants.",
+        "medium": "Painting",
+        "date": "Jan 2022 - May 2024",
+        "size": "8 inches by 15 inches"
       }
     ]
   }
