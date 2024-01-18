@@ -6,6 +6,7 @@
 body {
   font-family: "Merriweather", sans-serif;
   overflow-x: hidden;
+  background-color: #f4e8d8; /* Light tan background color for body */
 }
 @keyframes customEnterOverlayAnimation {
   0% {
@@ -55,6 +56,8 @@ body {
   .stickyNavbarStyles {
     @apply flex bg-[#F6F8FB] items-center justify-between w-full px-8 sm:px-16 py-5 shadow-lg;
     z-index: 50;
+    background-color: #f4e8d8; /* Light tan color */
+
   }
 
   .sidebar-link {
@@ -63,14 +66,38 @@ body {
 
   .socialLink {
     @apply flex items-center justify-center hover:shadow-lg shadow-2xl w-14 h-14 rounded-2xl p-3.5 cursor-pointer border border-transparent hover:border-gray-200;
-    background-color: #F6F8FB; /* Light mode background color */
+    background-color: #f4e8d8; /* Light tan color */
     transition: background-color 0.3s ease;
   }
+
+  .contact-button, .resume-button {
+    @apply bg-white dark:bg-gray-800 cursor-pointer border border-transparent rounded-lg;
+    padding: 10px 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .contact-button:hover, .resume-button:hover {
+    @apply hover:shadow-md hover:animate-pulse;
+    transform: scale(1.05);
+  }
+  
 
   @media (prefers-color-scheme: dark) {
     .socialLink {
       background-color: #1A202C; /* Dark mode background color */
     }
+
+    .contact-button, .resume-button {
+      background-color: #5C637C; /* Dark mode background color */
+      color: white;
+      /* ...other styles... */
+    }
+  
+    .contact-button:hover, .resume-button:hover {
+      transform: scale(1.05);
+      background-color: #4b5268; /* Slightly darker background on hover in dark mode */
+    }
+
   }
 
   .active {
@@ -83,6 +110,8 @@ body {
 
   .hobbyBox {
     @apply flex items-center justify-around px-5 py-4 bg-custom-lightGray rounded-3xl space-x-5 cursor-pointer hover:shadow-xl shadow-inner border border-transparent hover:border-gray-200;
+    background-color: #f4e8d8; /* Light tan color */
+
   }
 
   .hide-scrollbar::-webkit-scrollbar {
@@ -91,18 +120,3 @@ body {
   }
 }
 
-
-.contact-button, .resume-button {
-  background-color: #5C637C; /* Example background color */
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.contact-button:hover, .resume-button:hover {
-  transform: scale(1.05);
-  background-color: #4b5268; /* Slightly darker background on hover */
-}

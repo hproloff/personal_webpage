@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         custom: {
-          lightGray: "#F6F8FB",
+          lightGray: "#F4E8D8",
           dark: "#5C637C",
         },
       },

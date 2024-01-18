@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           className="flex items-center space-x-3 cursor-pointer"
         >
           <h3 className="hidden text-2xl font-light text-white md:flex">
-            Harrison<span className="font-semibold">Roloff</span>
+            Stella<span className="font-semibold">Roloff</span>
           </h3>
         </Link>
 
@@ -23,10 +23,10 @@ const Footer: React.FC = () => {
         </span>
         <span className="flex flex-col items-center space-y-2 text-sm font-normal text-white md:hidden">
           <span className="text-xs text-custom-lightGray">
-            © {date.getFullYear()} All right reserved | Last Updated, Jan 10 2024
+            © {date.getFullYear()} All right reserved | Last Updated, Jan 19 2024
           </span>
           <span>
-            <a href="#">Harrison Roloff</a>
+            <a href="#">Stella Roloff</a>
           </span>
         </span>
       </div>
