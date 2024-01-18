@@ -12,7 +12,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, description, photos, medium, date, size }) => {
   return (
-    <div className="border border-custom-lightGray rounded-lg mb-5 my-10 pb-3 transition duration-400 overflow-hidden">
+    <div className="border border-custom-lightGray rounded-lg mb-5 my-10 pb-3 transition duration-400 overflow-hidden dark:bg-gray-800 bg-[#f7e0c3]">
       <div className="relative w-full h-72 md:h-96 overflow-hidden"> {/* Adjusted height */}
         <Image
           src={photos[0]}
