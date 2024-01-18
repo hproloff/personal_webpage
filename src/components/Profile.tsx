@@ -5,7 +5,7 @@ import { fullName } from "../utils/data";
 
 const ProfileSection: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-between px-8 pt-8 pb-16 sm:px-16">
+    <div className="flex flex-col items-center justify-between px-8 pt-8 pb-16 sm:px-16" id="Profile">
       {/* Text Section */}
       <div className="text-center space-y-3 md:space-y-6 text-[#5C637C] xl:border-l-8 xl:pl-8 xl:border-gray-200 pt-4 pb-8 md:w-full">
         <motion.h1

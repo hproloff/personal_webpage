@@ -35,7 +35,10 @@ const Nav: React.FC = () => {
       >
         {/* Navigation Links */}
         <div className="items-center flex space-x-4 dark:bg-gray-900">
-          <Link to="Section4" spy={true} smooth={true} offset={-90} duration={500} activeClass="active" className="dark:bg-gray-900 navLink">
+          <Link to="Profile" spy={true} smooth={true} offset={-90} duration={500} activeClass="active" className="dark:bg-gray-900 navLink">
+            Profile
+          </Link>
+          <Link to="Portfolio" spy={true} smooth={true} offset={-90} duration={500} activeClass="active" className="dark:bg-gray-900 navLink">
             Portfolio
           </Link>
           <Link to="Commissions" spy={true} smooth={true} offset={-90} duration={500} activeClass="active" className="dark:bg-gray-900 navLink">
