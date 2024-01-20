@@ -33,7 +33,7 @@ const SocialButtons: React.FC = () => {
 
       {/* Facebook */}
       <a
-        href="#" // Insert Facebook link
+        href="https://www.facebook.com/harrison.roloff" // Insert Facebook link
         target="_blank"
         rel="noopener noreferrer"
         className="socialLink hover:animate-pulse hover:shadow-md ease-in-out dark:bg-gray-700 bg-white"
