@@ -3,28 +3,28 @@
     "education": [
       {
         "id": 1,
-        "university": "University of Wisconsin-Madison",
+        "university": "[University of Wisconsin-Madison](https://guide.wisc.edu/undergraduate/letters-science/statistics/data-science-ba/)",
         "degree": "Data Science Student",
         "date": "Jan 2022 - May 2024",
-        "description": "Active member of CS Nest and Badger Future Founders."
+        "description": "Active member of [CS Nest](https://www.csnest.com/) and [Badger Future Founders](https://www.linkedin.com/company/badger-entrepreneurship-society/)."
       },
       {
         "id": 2,
         "university": "Founder",
-        "degree": "Univise.org",
+        "degree": "[Univise.org](https://www.univise.org/)",
         "date": "Sept 2023 - Present",
         "description": "LLM research, model implementation using Retrieval Augmented Generation, application development. Market research and technology commericalization evaluation. Promotion efforts. "
       },
       {
         "id": 3,
-        "university": "X-Centric IT Solutions",
+        "university": "[X-Centric IT Solutions](https://x-centric.com/)",
         "degree": "Marketing, Sales, Analytics",
         "date": "Summer 2023",
         "description": "Explored SEO methods like guest blogging, content creation, and more. Competitor SEO analysis using Regex, Pandas, and Visualization packages in Python. Sales development representative for Cybersecurity services."
       },
       {
         "id": 4,
-        "university": "RIA Advisory",
+        "university": "[RIA Advisory](https://riaadvisory.com/)",
         "degree": "Frontend Web Development",
         "date": "Summer 2023",
         "description": "Learned Angular web development framework, used git, specialized in AG-Grid JavaScript concepts. Integrated AG-Grid tables and functionality onto customer-facing Data Integration and Migration Hub."
@@ -38,59 +38,59 @@
       },
       {
         "id": 6,
-        "university": "Renaissant Inc.",
+        "university": "[Renaissant Inc.](https://renaissant.com/)",
         "degree": "Market Research, Data Analysis",
         "date": "June - August 2022",
         "description": "Performed market research through polling relevant industry professionals. Wrote user manual for R2 platform. Simulated test data and graphical analyses using R and Excel."
       },
       {
         "id": 7,
-        "university": "Settle Down Tavern",
+        "university": "[Settle Down Tavern](https://www.settledownmadison.com/)",
         "degree": "Host and Barback",
         "date": "Mar - July 2022",
         "description": "Learned the importance of positive first impressions on customers. Practiced prioritization and improvisation skills to adapt to changing restaurant conditions."
       },
       {
         "id": 8,
-        "university": "The Old Fashioned",
+        "university": "[The Old Fashioned](https://theoldfashioned.com/)",
         "degree": "Busser and Barback",
         "date": "Mar - July 2022",
         "description": "Attended to customers needs while keeping the restaurant clean. Increased overall restaurant efficiency through delegating appropriate tasks to coworkers."
       },
       {
         "id": 9,
-        "university": "ARCC Programs",
+        "university": "[ARCC Programs](https://arccprograms.com/)",
         "degree": "Volunteer, Travel (Peru + Ecuador)",
         "date": "Fall 2021",
         "description": "Traveled to Puno, Cusco, Machu Picchu, Lima in Peru; La Paz, the Amazon jungle, and the Galapagos Islands in Ecuador. Hiked portion of the Incan trail, explored capital cities, performed service work (home restoration, youth education), and was immersed in local language and culture."
       },
       {
         "id": 10,
-        "university": "Bradford Beach Volleyball Club",
+        "university": "[Bradford Beach Volleyball Club](https://comidaandes.wixsite.com/2021)",
         "degree": "Founder and Head Coach",
         "date": "Summers 2020, 2021",
         "description": "Led all marketing efforts via email, text campaigns, and cold-calling to recruit 80+ participants. Created website, online payment system, custom t-shirts and volleyballs for each participant. Managed a team of 5 employees/coaches throughout 9 camps over 4 weeks."
       },
       {
         "id": 11,
-        "university": "University of Denver",
+        "university": "[University of Denver](https://daniels.du.edu/)",
         "degree": "Business Administration Student",
         "date": "Fall 2020 - Spring 2021",
         "description": "Innovation and Entrepreneurship Living and Learning Community."
       },
       {
         "id": 12,
-        "university": "Rocky Mountain Photography",
+        "university": "[Rocky Mountain Photography](https://www.rockymountainphotography.com/)",
         "degree": "Drone Construction Documentation",
         "date": "Sep 2020 - Jan 2021",
         "description": "Moved SEO ranking into the top 3 for relevant keywords by creating backlinks and blog posts. Generated 4 new revenue streams through construction documentation in the Denver area. Captured, edited, and produced 21 construction site videos leveraging drones to showcase developments."
       },
       {
         "id": 13,
-        "university": "Marquette University High School",
+        "university": "[Marquette University High School](https://www.muhs.edu/)",
         "degree": "High School Education",
         "date": "Fall 2016 - Spring 2020",
-        "description": "First honors all eight semesters. 2-time Kairos retreat leader. Active member of Jesuit Honor Society, tutoring students weekly. Weekly volunteering for after-school program at Highland Community School in Milwaukee."
+        "description": "First honors all eight semesters. 2-time [Kairos](https://www.muhs.edu/faith-service/retreats) retreat leader. Active member of [Jesuit Honor Society](https://www.muhs.edu/academics/jesuit-honor-society), tutoring students weekly. Weekly volunteering for after-school program at [Highland Community School](https://www.highlandcommunityschool.org/) in Milwaukee."
       },
       {
         "id": 14,
@@ -101,7 +101,7 @@
       },
       {
         "id": 15,
-        "university": "Lake Park Tennis",
+        "university": "[Lake Park Tennis](https://lakeparkfriends.org/visit/)",
         "degree": "Coach",
         "date": "Summers 2016 - 2020",
         "description": "Assistant coach, managing drills and participant safety."
