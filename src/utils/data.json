@@ -3,24 +3,24 @@
     "education": [
       {
         "id": 1,
-        "university": "[Univise.org](https://www.univise.org/)",
-        "degree": "Founder",
-        "date": "Sept 2023 - Present",
-        "description": "LLM research, model implementation using Retrieval Augmented Generation, application development. Market research and technology commericalization evaluation. Promotion efforts. "
+        "university": "[Cylerity Corp.](https://cylerity.com/)",
+        "degree": "Go-to-Market Strategist",
+        "date": "Jan 2024 - Present",
+        "description": "Customer discovery interviews in the healthcare claims submission space. Performing technology commercialization evaluation and go-to-market strategy on new innovation."
       },
       {
         "id": 2,
         "university": "[Feehive.io](https://www.feehive.io/)",
-        "degree": "AI Engineer, Go-to-Market Strategist",
-        "date": "Jan 2024 - Present",
-        "description": "Leveraging new technologies to explore solutions in the legal budgeting and administrative operations space. ETL frameworks with Python, [MongoDB](https://www.mongodb.com/), vector embeddings, large language models."
+        "degree": "AI Engineer",
+        "date": "Jan 2024 - May 2024",
+        "description": "Leveraging generative AI to explore solutions in the legal budgeting and administrative operations space. API endpoints, ETL framework, data synthesis with [Claude Haiku](https://www.anthropic.com/news/claude-3-haiku). Built full-stack MVP web application with recommendation engine powered by [Cohere Rerank 3](https://cohere.com/blog/rerank-3)"
       },
       {
         "id": 3,
-        "university": "[Cylerity Corp.](https://cylerity.com/)",
-        "degree": "Go-to-Market Strategist",
-        "date": "Jan 2024 - Present",
-        "description": "Customer discovery interviews in the healthcare claims submission space. Performing technology commercialization evaluation and go-to-market strategy on new product line."
+        "university": "[Univise.org](https://www.univise.org/)",
+        "degree": "Founder, AI Engineer",
+        "date": "Sept 2023 - Present",
+        "description": "Built academic advisor tool for UW-Madison undergraduates using LLMs and Retrieval Augmented Generation. Led full-stack web development for product MVP, technology commericalization evaluation, go-to-market strategy, and promotion efforts."
       },
       {
         "id": 4,

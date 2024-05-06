@@ -23,13 +23,13 @@ const ProfileSection: React.FC = () => {
           transition={{ duration: 2 }}
           className="text-lg md:text-xl lg:text-2xl"
         >
-          Currently at University of Wisconsin-Madison, completing Data Science BA for Spring 2024. 
+          University of Wisconsin-Madison Data Science Graduate
         </motion.p>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 justify-center md:justify-start">
           <a href="/contact.vcf" download className="contact-button">
             Download Contact
           </a>
-          <a href="/harrison_roloff_resume.pdf" download className="resume-button">
+          <a href="/Harrison_Roloff_Resume.pdf" download className="resume-button">
             Download Resume
           </a>
         </div>
