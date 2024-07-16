@@ -3,9 +3,23 @@
     "education": [
       {
         "id": 1,
+        "university": "Stealth Startup",
+        "degree": "AI Engineer",
+        "date": "June 2024 - Present",
+        "description": "Third-Party Administrator benefits industry automation."
+      },
+      {
+        "id": 2,
+        "university": "[Tidal Financial Group](https://tidalfinancialgroup.com/)",
+        "degree": "Data Scientist",
+        "date": "June 2024 - Present",
+        "description": "Built automated due diligence questionaire bot augmented on historical company data. Deployed IT-related projects to [AWS Lambda](https://aws.amazon.com/lambda/)/Linux. [Snowflake](https://www.snowflake.com/en/) data lake integrity with SQL queries. "
+      },
+      {
+        "id": 1,
         "university": "[Cylerity Corp.](https://cylerity.com/)",
         "degree": "Go-to-Market Strategist",
-        "date": "Jan 2024 - Present",
+        "date": "Jan 2024 - June 2024",
         "description": "Customer discovery interviews in the healthcare claims submission space. Performing technology commercialization evaluation and go-to-market strategy on new innovation."
       },
       {
@@ -19,7 +33,7 @@
         "id": 3,
         "university": "[Univise.org](https://www.univise.org/)",
         "degree": "Founder, AI Engineer",
-        "date": "Sept 2023 - Present",
+        "date": "Aug 2023 - Present",
         "description": "Built academic advisor tool for UW-Madison undergraduates using LLMs and Retrieval Augmented Generation. Led full-stack web development for product MVP, technology commericalization evaluation, go-to-market strategy, and promotion efforts."
       },
       {
@@ -119,6 +133,18 @@
   {
     "project": [
       {
+        "id": 0,
+        "title": "Lake Park Golf Website",
+        "photos": [
+          "/projects/lpcc/lpcc_1.png",
+          "/projects/lpcc/lpcc_2.png",
+          "/projects/lpcc/lpcc_3.png",
+          "/projects/lpcc/lpcc_4.png"
+        ],
+        "link": "https://lpcc.golf",
+        "description": "Turned a competitive hobby into a full-stack web app. So far, logged over 3,000 holes from 40+ active users!"
+      },
+      {
         "id": 1,
         "title": "Stock Optimization",
         "photos": [
@@ -133,10 +159,7 @@
         "id": 2,
         "title": "Univise",
         "photos": [
-          "/projects/univise/univise.png",
-          "/projects/univise/univise2.png",
-          "/projects/univise/univise3.png",
-          "/projects/univise/univise4.png"        
+          "/projects/univise/univise.png"       
         ],
         "link": "https://univise.org",
         "description": "Transforming the academic advising industry with a free, 24/7-access LLM-powered chatbot tool."
