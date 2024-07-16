@@ -35,8 +35,8 @@ const Card: React.FC<CardProps> = ({ title, description, photos, link }) => {
         <Image
           src={photos[currentPhotoIndex]}
           alt={title}
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: 'cover' }}
         />
       </div>
 
