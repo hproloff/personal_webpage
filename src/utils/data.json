@@ -2,8 +2,15 @@
   {
     "education": [
       {
+        "id": 0,
+        "university": "[Wisq](https://www.wisq.com/)",
+        "degree": "Sales Development Rep",
+        "date": "Oct 2024 - Present",
+        "description": "An AI guide for people success, [Wisq](https://www.wisq.com/) accelerates your employees’ growth with real-time guidance, personalized coaching, and expert advice aligned with your company’s principles and programs."
+      },
+      {
         "id": 1,
-        "university": "Stealth Startup",
+        "university": "[SmartBenAI](https://smartbenai.com/)",
         "degree": "AI Engineer",
         "date": "June 2024 - Present",
         "description": "Third-Party Administrator benefits industry automation."
@@ -12,7 +19,7 @@
         "id": 2,
         "university": "[Tidal Financial Group](https://tidalfinancialgroup.com/)",
         "degree": "Data Scientist",
-        "date": "June 2024 - Present",
+        "date": "June 2024 - Sept 2024",
         "description": "Built automated due diligence questionaire bot augmented on historical company data. Deployed IT-related projects to [AWS Lambda](https://aws.amazon.com/lambda/)/Linux. [Snowflake](https://www.snowflake.com/en/) data lake integrity with SQL queries. "
       },
       {

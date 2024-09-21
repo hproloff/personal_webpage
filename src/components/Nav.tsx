@@ -23,14 +23,16 @@ const Nav: React.FC = () => {
     <motion.div
       initial={{ position: "relative" }}
       animate={
-        navbar ? { position: "sticky", top: 0, zIndex: 50 } : { position: "relative" }
+        navbar
+          ? { position: "sticky", top: 0, zIndex: 50 }
+          : { position: "relative" }
       }
     >
       <div
         className={
           navbar
-            ? "stickyNavbarStyles dark:bg-gray-900"
-            : "flex bg-[#F6F8FB] items-center dark:bg-gray-900 justify-between w-full py-8 px-8 sm:px-16 z-50"
+            ? "stickyNavbarStyles bg-[blanchedalmond] dark:bg-gray-900" // Apply blanchedalmond when sticky
+            : "flex bg-[blanchedalmond] items-center dark:bg-gray-900 justify-between w-full py-8 px-8 sm:px-16 z-50"
         }
       >
         {/* Navigation Links */}

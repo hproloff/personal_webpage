@@ -5,7 +5,7 @@ import { AppProps } from 'next/app';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
-    <ThemeProvider attribute="class">
+    <ThemeProvider attribute="class" defaultTheme="dark">
         <Component {...pageProps} />
     </ThemeProvider>
   );
