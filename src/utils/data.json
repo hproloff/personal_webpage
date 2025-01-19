@@ -6,14 +6,14 @@
         "university": "[Wisq](https://www.wisq.com/)",
         "degree": "Sales Development Rep",
         "date": "Oct 2024 - Present",
-        "description": "An AI guide for people success, [Wisq](https://www.wisq.com/) accelerates your employees’ growth with real-time guidance, personalized coaching, and expert advice aligned with your company’s principles and programs."
+        "description": "Building predictable demand gen strategies for the world's first AI HR Generalist."
       },
       {
         "id": 1,
         "university": "[SmartBenAI](https://smartbenai.com/)",
         "degree": "AI Engineer",
-        "date": "June 2024 - Present",
-        "description": "Third-Party Administrator benefits industry automation."
+        "date": "June 2024 - Oct 2024",
+        "description": "Led development efforts for building an FSA claim automation tool. Set up infrastructure to securely handle PHI, strung together AI technologies (vision models, fine-tuned BERT model for text classification, proprietary data synthesis), and led team to build frontend prototype for pilot partner. Venture shut down in Nov 2024."
       },
       {
         "id": 2,
@@ -141,7 +141,7 @@
     "project": [
       {
         "id": 0,
-        "title": "Lake Park Golf Website",
+        "title": "Lake Park Golf App",
         "photos": [
           "/projects/lpcc/lpcc_1.png",
           "/projects/lpcc/lpcc_2.png",
@@ -149,43 +149,20 @@
           "/projects/lpcc/lpcc_4.png"
         ],
         "link": "https://lpcc.golf",
-        "description": "Turned a competitive hobby into a full-stack web app. So far, logged over 3,000 holes from 40+ active users!"
-      },
-      {
-        "id": 1,
-        "title": "Stock Optimization",
-        "photos": [
-          "/projects/stock_opt/stock_opt.png",
-          "/projects/stock_opt/stock_opt4.png",
-          "/projects/stock_opt/stock_opt3.png"
-        ],
-        "link": "https://github.com/hproloff/final_proj_cs524/blob/main/extra/project.ipynb",
-        "description": "Combining my interests in data science and finance to produce a comprehensive report on Modern Portfolio Theory."
+        "description": "Turned a competitive hobby into a full-stack web app. So far, logged over 4,000 holes from 50+ active users! Hosted tournament sponsored by Northwestern Mutual."
       },
       {
         "id": 2,
-        "title": "Univise",
+        "title": "Univise - Pitch Comp",
         "photos": [
           "/projects/univise/univise.png"       
         ],
         "link": "https://univise.org",
-        "description": "Transforming the academic advising industry with a free, 24/7-access LLM-powered chatbot tool."
-      },
-      {
-        "id": 3,
-        "title": "Comida Andes",
-        "photos": [
-          "/projects/comidaandes/comidaandes.png",
-          "/projects/comidaandes/comidaandes2.png",
-          "/projects/comidaandes/comidaandes3.jpg",
-          "/projects/comidaandes/comidaandes4.jpg"
-        ],
-        "link": "https://comidaandes.wixsite.com/website-3",
-        "description": "During my semester in Peru, fundraised and kickstarted local chef Johan's online presence."
+        "description": "Course discovery chatbot tool. Won 'Best Pitch $1,000' at Transcend Pitch Competition and launched to 600+ users at UW-Madison."
       },
       {
         "id": 4,
-        "title": "Volleyball Camps",
+        "title": "Summer Volleyball Camps",
         "photos": [
           "/projects/bradfordbvc/bradfordbvc2.png",
           "/projects/bradfordbvc/bradfordbvc3.jpg",
@@ -194,7 +171,7 @@
           "/projects/bradfordbvc/bradfordbvc6.jpg"
         ],
         "link": "https://comidaandes.wixsite.com/2021",
-        "description": "To continue my love for the sport, I organized  beach volleyball camps, managed coaches, and recruited participants."
+        "description": "Designed custom t-shirts & volleyballs, recruited 82 participants, and hired 4 coaches. Five successful week-long camps at Bradford Beach, MKE, WI."
       },
       {
         "id": 5,
@@ -207,6 +184,18 @@
         ],
         "link": "https://www.rockymountainphotography.com/services/drone-denver/",
         "description": "During my 2020 year in Denver, I enjoyed capturing shots of developing suburbs and construction sites using drones and cessna aircraft."
+      },
+      {
+        "id": 3,
+        "title": "Comida Andes",
+        "photos": [
+          "/projects/comidaandes/comidaandes.png",
+          "/projects/comidaandes/comidaandes2.png",
+          "/projects/comidaandes/comidaandes3.jpg",
+          "/projects/comidaandes/comidaandes4.jpg"
+        ],
+        "link": "https://comidaandes.wixsite.com/website-3",
+        "description": "During my semester in Peru, fundraised and kickstarted local chef Johan's online presence."
       },
       {
         "id": 6,

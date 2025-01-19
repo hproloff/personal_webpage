@@ -23,7 +23,7 @@ const ProfileSection: React.FC = () => {
           transition={{ duration: 2 }}
           className="text-lg md:text-xl lg:text-2xl"
         >
-          University of Wisconsin-Madison Data Science Graduate
+          Salt Lake City, Utah
         </motion.p>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 justify-center md:justify-start">
           <a href="/contact.vcf" download className="contact-button">

@@ -1,0 +1,12 @@
+
+      {
+        "id": 1,
+        "title": "Stock Optimization",
+        "photos": [
+          "/projects/stock_opt/stock_opt.png",
+          "/projects/stock_opt/stock_opt4.png",
+          "/projects/stock_opt/stock_opt3.png"
+        ],
+        "link": "https://github.com/hproloff/final_proj_cs524/blob/main/extra/project.ipynb",
+        "description": "Combining my interests in data science and finance to produce a comprehensive report on Modern Portfolio Theory."
+      }
