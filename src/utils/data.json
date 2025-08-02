@@ -4,100 +4,107 @@
       {
         "id": 0,
         "university": "[Wisq](https://www.wisq.com/)",
-        "degree": "Sales Development Rep",
+        "degree": "GTM Engineer",
         "date": "Oct 2024 - Present",
-        "description": "Building predictable demand gen strategies for the world's first AI HR Generalist."
+        "description": "Wisq is building the world's first AI HR generalist to transform the enterprise HR operating model.\n\nPersonally leading outbound demand generation, running coordinated plays with marketing and executing signal-based outreach.\n\nQ1 '25: 120%, Q2 '25: 187% quota attainment."
+      },
+      {
+        "id": 0,
+        "university": "[Campusfy](https://www.campusfy.app/)",
+        "degree": "Founder",
+        "date": "Jan 2025 - May 2025",
+        "description": "AI-powered platform to help students find classes, professors, and more. Aggregated reviews, built a recommendation engine, and built a course catalog.\n\n1,500+ users // 4,000+ courses searched at UW-Madison.\n\nVenture shut down in May 2025 due to lack of commercial viability."
       },
       {
         "id": 1,
         "university": "[SmartBenAI](https://smartbenai.com/)",
         "degree": "AI Engineer",
         "date": "June 2024 - Oct 2024",
-        "description": "Led development efforts for building an FSA claim automation tool. Set up infrastructure to securely handle PHI, strung together AI technologies (vision models, fine-tuned BERT model for text classification, proprietary data synthesis), and led team to build frontend prototype for pilot partner. Venture shut down in Nov 2024."
+        "description": "Led development efforts for building an FSA claim automation tool. Set up infrastructure to securely handle PHI, strung together AI technologies (vision models, fine-tuned BERT model for text classification, proprietary data synthesis), and led team to build frontend prototype for pilot partner.\n\nVenture shut down in Nov 2024."
       },
       {
         "id": 2,
         "university": "[Tidal Financial Group](https://tidalfinancialgroup.com/)",
         "degree": "Data Scientist",
         "date": "June 2024 - Sept 2024",
-        "description": "Built automated due diligence questionaire bot augmented on historical company data. Deployed IT-related projects to [AWS Lambda](https://aws.amazon.com/lambda/)/Linux. [Snowflake](https://www.snowflake.com/en/) data lake integrity with SQL queries. "
+        "description": "Built automated due diligence questionaire bot augmented on historical company data.\n\nDeployed IT-related projects to [AWS Lambda](https://aws.amazon.com/lambda/)/Linux. [Snowflake](https://www.snowflake.com/en/) data lake integrity with SQL queries."
       },
       {
         "id": 1,
         "university": "[Cylerity Corp.](https://cylerity.com/)",
         "degree": "Go-to-Market Strategist",
         "date": "Jan 2024 - June 2024",
-        "description": "Customer discovery interviews in the healthcare claims submission space. Performing technology commercialization evaluation and go-to-market strategy on new innovation."
+        "description": "Customer discovery interviews in the healthcare claims submission space.\n\nPerforming technology commercialization evaluation and go-to-market strategy on new innovation."
       },
       {
         "id": 2,
         "university": "[Feehive.io](https://www.feehive.io/)",
         "degree": "AI Engineer",
         "date": "Jan 2024 - May 2024",
-        "description": "Leveraging generative AI to explore solutions in the legal budgeting and administrative operations space. API endpoints, ETL framework, data synthesis with [Claude Haiku](https://www.anthropic.com/news/claude-3-haiku). Built full-stack MVP web application with recommendation engine powered by [Cohere Rerank 3](https://cohere.com/blog/rerank-3)"
+        "description": "Leveraging generative AI to explore solutions in the legal budgeting and administrative operations space.\n\nAPI endpoints, ETL framework, data synthesis with [Claude Haiku](https://www.anthropic.com/news/claude-3-haiku).\n\nBuilt full-stack MVP web application with recommendation engine powered by [Cohere Rerank 3](https://cohere.com/blog/rerank-3)"
       },
       {
         "id": 3,
         "university": "[Univise.org](https://www.univise.org/)",
         "degree": "Founder, AI Engineer",
         "date": "Aug 2023 - Present",
-        "description": "Built academic advisor tool for UW-Madison undergraduates using LLMs and Retrieval Augmented Generation. Led full-stack web development for product MVP, technology commericalization evaluation, go-to-market strategy, and promotion efforts."
+        "description": "Built academic advisor tool for UW-Madison undergraduates using LLMs and Retrieval Augmented Generation.\n\nLed full-stack web development for product MVP, technology commericalization evaluation, go-to-market strategy, and promotion efforts."
       },
       {
         "id": 4,
         "university": "[X-Centric IT Solutions](https://x-centric.com/)",
         "degree": "Marketing, Sales, Analytics",
         "date": "Summer 2023",
-        "description": "Explored SEO methods like guest blogging, content creation, and more. Competitor SEO analysis using Regex, Pandas, and Visualization packages in Python. Sales development representative for Cybersecurity services."
+        "description": "Explored SEO methods like guest blogging, content creation, and more.\n\nCompetitor SEO analysis using Regex, Pandas, and Visualization packages in Python.\n\nSales development representative for Cybersecurity services."
       },
       {
         "id": 5,
         "university": "[RIA Advisory](https://riaadvisory.com/)",
         "degree": "Frontend Web Development",
         "date": "Summer 2023",
-        "description": "Learned Angular web development framework, used git, specialized in AG-Grid JavaScript concepts. Integrated AG-Grid tables and functionality onto customer-facing Data Integration and Migration Hub."
+        "description": "Learned Angular web development framework, used git, specialized in AG-Grid JavaScript concepts.\n\nIntegrated AG-Grid tables and functionality onto customer-facing Data Integration and Migration Hub."
       },
       {
         "id": 6,
         "university": "Invision Social Marketing",
         "degree": "Brand Development",
         "date": "June - Dec 2022",
-        "description": "Influencer acquisition campaign. Gathered and edited content for multiple brands, designed mockups, and negotiated with manufacturers."
+        "description": "Influencer acquisition campaign.\n\nGathered and edited content for multiple brands, designed mockups, and negotiated with manufacturers."
       },
       {
         "id": 7,
         "university": "[Renaissant Inc.](https://renaissant.com/)",
         "degree": "Market Research, Data Analysis",
         "date": "June - August 2022",
-        "description": "Performed market research through polling relevant industry professionals. Wrote user manual for R2 platform. Simulated test data and graphical analyses using R and Excel."
+        "description": "Performed market research through polling relevant industry professionals.\n\nWrote user manual for R2 platform.\n\nSimulated test data and graphical analyses using R and Excel."
       },
       {
         "id": 8,
         "university": "[Settle Down Tavern](https://www.settledownmadison.com/)",
         "degree": "Host and Barback",
         "date": "Mar - July 2022",
-        "description": "Learned the importance of positive first impressions on customers. Practiced prioritization and improvisation skills to adapt to changing restaurant conditions."
+        "description": "Learned the importance of positive first impressions on customers.\n\nPracticed prioritization and improvisation skills to adapt to changing restaurant conditions."
       },
       {
         "id": 9,
         "university": "[The Old Fashioned](https://theoldfashioned.com/)",
         "degree": "Busser and Barback",
         "date": "Mar - July 2022",
-        "description": "Attended to customers needs while keeping the restaurant clean. Increased overall restaurant efficiency through delegating appropriate tasks to coworkers."
+        "description": "Attended to customers needs while keeping the restaurant clean.\n\nIncreased overall restaurant efficiency through delegating appropriate tasks to coworkers."
       },
       {
         "id": 10,
         "university": "[ARCC Programs](https://arccprograms.com/)",
         "degree": "Volunteer, Travel (Peru + Ecuador)",
         "date": "Fall 2021",
-        "description": "Traveled to Puno, Cusco, Machu Picchu, Lima in Peru; La Paz, the Amazon jungle, and the Galapagos Islands in Ecuador. Hiked portion of the Incan trail, explored capital cities, performed service work (home restoration, youth education), and was immersed in local language and culture."
+        "description": "Traveled to Puno, Cusco, Machu Picchu, Lima in Peru; La Paz, the Amazon jungle, and the Galapagos Islands in Ecuador.\n\nHiked portion of the Incan trail, explored capital cities, performed service work (home restoration, youth education), and was immersed in local language and culture."
       },
       {
         "id": 11,
         "university": "[Bradford Beach Volleyball Club](https://comidaandes.wixsite.com/2021)",
         "degree": "Founder and Head Coach",
         "date": "Summers 2020, 2021",
-        "description": "Led all marketing efforts via email, text campaigns, and cold-calling to recruit 80+ participants. Created website, online payment system, custom t-shirts and volleyballs for each participant. Managed a team of 5 employees/coaches throughout 9 camps over 4 weeks."
+        "description": "Led all marketing efforts via email, text campaigns, and cold-calling to recruit 80+ participants.\n\nCreated website, online payment system, custom t-shirts and volleyballs for each participant.\n\nManaged a team of 5 employees/coaches throughout 9 camps over 4 weeks."
       },
       {
         "id": 12,
@@ -111,21 +118,21 @@
         "university": "[Rocky Mountain Photography](https://www.rockymountainphotography.com/)",
         "degree": "Drone Construction Documentation",
         "date": "Sep 2020 - Jan 2021",
-        "description": "Moved SEO ranking into the top 3 for relevant keywords by creating backlinks and blog posts. Generated 4 new revenue streams through construction documentation in the Denver area. Captured, edited, and produced 21 construction site videos leveraging drones to showcase developments."
+        "description": "Moved SEO ranking into the top 3 for relevant keywords by creating backlinks and blog posts.\n\nGenerated 4 new revenue streams through construction documentation in the Denver area.\n\nCaptured, edited, and produced 21 construction site videos leveraging drones to showcase developments."
       },
       {
         "id": 14,
         "university": "[Marquette University High School](https://www.muhs.edu/)",
         "degree": "High School Education",
         "date": "Fall 2016 - Spring 2020",
-        "description": "First honors all eight semesters. 2-time [Kairos](https://www.muhs.edu/faith-service/retreats) retreat leader. Active member of [Jesuit Honor Society](https://www.muhs.edu/academics/jesuit-honor-society), tutoring students weekly. Weekly volunteering for after-school program at [Highland Community School](https://www.highlandcommunityschool.org/) in Milwaukee."
+        "description": "First honors all eight semesters.\n\n2-time [Kairos](https://www.muhs.edu/faith-service/retreats) retreat leader. Active member of [Jesuit Honor Society](https://www.muhs.edu/academics/jesuit-honor-society), tutoring students weekly.\n\nWeekly volunteering for after-school program at [Highland Community School](https://www.highlandcommunityschool.org/) in Milwaukee."
       },
       {
         "id": 15,
         "university": "ACT Tutoring Business",
         "degree": "Founder and Tutor",
         "date": "Jan 2020 - Sep 2020",
-        "description": " Improved 23 paid clients testing results an average of 3 points."
+        "description": "Improved 23 paid clients testing results an average of 3 points."
       },
       {
         "id": 16,
@@ -148,17 +155,8 @@
           "/projects/lpcc/lpcc_3.png",
           "/projects/lpcc/lpcc_4.png"
         ],
-        "link": "https://lpcc.golf",
+        "link": "https://lakepark.golf",
         "description": "Turned a competitive hobby into a full-stack web app. So far, logged over 4,000 holes from 50+ active users! Hosted tournament sponsored by Northwestern Mutual."
-      },
-      {
-        "id": 2,
-        "title": "Univise - Pitch Comp",
-        "photos": [
-          "/projects/univise/univise.png"       
-        ],
-        "link": "https://univise.org",
-        "description": "Course discovery chatbot tool. Won 'Best Pitch $1,000' at Transcend Pitch Competition and launched to 600+ users at UW-Madison."
       },
       {
         "id": 4,

@@ -1,12 +1,12 @@
 import "tailwindcss/tailwind.css";
 import "../styles/globals.css";
-import { ThemeProvider } from 'next-themes';
+import { ThemeProvider } from '../utils/ThemeContext';
 import { AppProps } from 'next/app';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
-    <ThemeProvider attribute="class" defaultTheme="dark">
-        <Component {...pageProps} />
+    <ThemeProvider>
+      <Component {...pageProps} />
     </ThemeProvider>
   );
 };

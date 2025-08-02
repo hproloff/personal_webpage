@@ -7,7 +7,7 @@ import React from "react";
 const Title: React.FC = () => {
   return (
     <div className="flex flex-col-reverse items-center justify-between px-8 pt-8 pb-16 md:flex-row sm:px-16">
-      <div className="space-y-3 sm:space-y-6 items-center text-[#5C637C] xl:border-l-8 xl:pl-8 xl:border-gray-200 py-8">
+              <div className="space-y-3 sm:space-y-6 items-center text-custom-text-primary xl:border-l-8 xl:pl-8 xl:border-custom-border-primary py-8">
         <div className="text-lg  font-normal md:text-xl lg:text-2xl xl:text-3xl">
           <motion.h1
             initial={{ opacity: 0 }}

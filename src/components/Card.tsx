@@ -27,7 +27,7 @@ const Card: React.FC<CardProps> = ({ title, description, photos, link }) => {
 
   return (
     <div
-      className="hover:shadow-md border border-custom-lightGray rounded-lg max-w-sm mb-5 backdrop-filter hover:rotate-0 px-4 my-10 pb-3 md:min-w-[400px] min-w-[300px] cursor-pointer transition duration-400 transform hover:scale-110"
+      className="hover:shadow-lg border border-custom-border-primary rounded-lg max-w-sm mb-5 backdrop-filter hover:rotate-0 px-4 my-10 pb-3 md:min-w-[400px] min-w-[300px] cursor-pointer transition-all duration-300 transform hover:scale-105"
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
     >
@@ -41,15 +41,15 @@ const Card: React.FC<CardProps> = ({ title, description, photos, link }) => {
       </div>
 
       <div className="p-5">
-        <h5 className="text-gray-500 font-bold text-2xl tracking-tight mb-2">
+        <h5 className="text-custom-text-secondary font-bold text-2xl tracking-tight mb-2">
           {title}
         </h5>
-        <p className="font-normal text-gray-700 mb-3">{description}</p>
+        <p className="font-normal text-custom-text-primary mb-3">{description}</p>
         <a
-          className="text-white bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center"
+          className="text-custom-text-inverse bg-custom-interactive-primary hover:bg-custom-interactive-hover focus:ring-4 focus:ring-custom-link-primary font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center transition-colors duration-200"
           href={link}
         >
-          More...
+          View More...
         </a>
       </div>
     </div>

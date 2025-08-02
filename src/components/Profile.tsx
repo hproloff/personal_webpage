@@ -7,7 +7,7 @@ const ProfileSection: React.FC = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between px-8 pt-8 pb-16 sm:px-16">
       {/* Text Section */}
-      <div className="text-center md:text-left space-y-3 md:space-y-6 text-[#5C637C] xl:border-l-8 xl:pl-8 xl:border-gray-200 py-8 md:w-1/2 order-last md:order-none">
+      <div className="text-center md:text-left space-y-3 md:space-y-6 text-custom-text-primary xl:border-l-8 xl:pl-8 xl:border-custom-border-primary py-8 md:w-1/2 order-last md:order-none">
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -23,14 +23,11 @@ const ProfileSection: React.FC = () => {
           transition={{ duration: 2 }}
           className="text-lg md:text-xl lg:text-2xl"
         >
-          Salt Lake City, Utah
+          New York City
         </motion.p>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 justify-center md:justify-start">
           <a href="/contact.vcf" download className="contact-button">
-            Download Contact
-          </a>
-          <a href="/Harrison_Roloff_Resume.pdf" download className="resume-button">
-            Download Resume
+            Contact Info
           </a>
         </div>
       </div>

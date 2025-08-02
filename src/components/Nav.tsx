@@ -31,16 +31,16 @@ const Nav: React.FC = () => {
       <div
         className={
           navbar
-            ? "stickyNavbarStyles bg-[blanchedalmond] dark:bg-gray-900" // Apply blanchedalmond when sticky
-            : "flex bg-[blanchedalmond] items-center dark:bg-gray-900 justify-between w-full py-8 px-8 sm:px-16 z-50"
+            ? "stickyNavbarStyles" // Apply theme-aware background when sticky
+            : "flex items-center justify-between w-full py-8 px-8 sm:px-16 z-50 bg-custom-bg-primary"
         }
       >
         {/* Navigation Links */}
-        <div className="items-center flex space-x-4 dark:bg-gray-900">
-          <Link to="Section4" spy={true} smooth={true} offset={-90} duration={500} activeClass="active" className="dark:bg-gray-900 navLink">
+        <div className="items-center flex space-x-4">
+          <Link to="Section4" spy={true} smooth={true} offset={-90} duration={500} activeClass="active" className="navLink">
             Projects
           </Link>
-          <Link to="Section2" spy={true} smooth={true} offset={-90} duration={500} activeClass="active" className="dark:bg-gray-900 navLink">
+          <Link to="Section2" spy={true} smooth={true} offset={-90} duration={500} activeClass="active" className="navLink">
             Experiences
           </Link>
         </div>

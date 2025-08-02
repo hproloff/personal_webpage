@@ -3,10 +3,57 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg-primary: #E7D7B7; /* Soft golden tan */
+  --bg-secondary: #FDFBF9; /* Near-white parchment */
+  --bg-tertiary: #F5F1EC; /* Light almond beige */
+
+  --text-primary: #2A2A2A; /* Near-black for strong contrast */
+  --text-secondary: #3E3E3E; /* Deep gray */
+  --text-tertiary: #5C5C5C; /* Mid-gray for lighter content */
+  --text-inverse: #FFFFFF;
+
+  --interactive-primary: #BFA89B; /* Muted clay */
+  --interactive-secondary: #CBD5D0; /* Pale blue-gray */
+  --interactive-hover: #A8958A;
+
+  --border-primary: #BFA89B;
+  --border-secondary: #CBD5D0;
+  --shadow: rgba(191, 168, 155, 0.15);
+
+  --link-primary: #BFA89B;
+  --link-hover: #8E7C72;
+}
+
+
+[data-theme="dark"] {
+  --bg-primary: #1A202C; /* Dark blueish gray */
+  --bg-secondary: #2D3748; /* Darker blueish gray */
+  --bg-tertiary: #4A5568; /* Medium blueish gray */
+  --text-primary: #F7FAFC; /* Very light blueish white */
+  --text-secondary: #E2E8F0; /* Light blueish gray */
+  --text-tertiary: #A0AEC0; /* Medium blueish gray */
+  --text-inverse: #1A202C; /* Dark blueish gray */
+  --interactive-primary: #4299E1; /* Bright blue */
+  --interactive-secondary: #63B3ED; /* Light blue */
+  --interactive-hover: #3182CE; /* Darker blue */
+  --border-primary: #4A5568; /* Medium blueish gray */
+  --border-secondary: #718096; /* Light blueish gray */
+  --shadow: rgba(66, 153, 225, 0.15); /* Blue shadow */
+  --link-primary: #4299E1; /* Bright blue */
+  --link-hover: #3182CE; /* Darker blue */
+}
+
+html {
+  background-color: var(--bg-primary);
+}
+
 body {
   font-family: "Merriweather", sans-serif;
   overflow-x: hidden;
-  background-color: blanchedalmond;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
 }
 @keyframes customEnterOverlayAnimation {
   0% {
@@ -52,36 +99,54 @@ body {
   }
 
   .stickyNavbarStyles {
-    @apply flex bg-[#F6F8FB] items-center justify-between w-full px-8 sm:px-16 py-5 shadow-lg;
+    @apply flex items-center justify-between w-full px-8 sm:px-16 py-5 shadow-lg;
+    background-color: var(--bg-tertiary);
     z-index: 50;
   }
 
   .sidebar-link {
-    @apply px-10 rounded-lg py-4 text-lg text-[#5C637C] md:text-sm cursor-pointer hover:bg-white hover:shadow-md transition duration-200 ease-in-out;
+    @apply px-10 rounded-lg py-4 text-lg md:text-sm cursor-pointer transition duration-200 ease-in-out;
+    color: var(--text-primary);
+  }
+
+  .sidebar-link:hover {
+    background-color: var(--interactive-secondary); /* Off-White/Ivory */
+    box-shadow: 0 4px 6px -1px var(--shadow);
   }
 
   .socialLink {
-    @apply flex items-center justify-center hover:shadow-lg shadow-2xl w-14 h-14 rounded-2xl p-3.5 cursor-pointer border border-transparent hover:border-gray-200;
-    background-color: #F6F8FB; /* Light mode background color */
-    transition: background-color 0.3s ease;
+    @apply flex items-center justify-center hover:shadow-lg shadow-2xl w-14 h-14 rounded-2xl p-3.5 cursor-pointer border border-transparent transition-all duration-300 ease-in-out;
+    background-color: var(--bg-tertiary);
   }
 
-  @media (prefers-color-scheme: dark) {
-    .socialLink {
-      background-color: #1A202C; /* Dark mode background color */
-    }
+  .socialLink:hover {
+    border-color: var(--interactive-primary); /* Olive Green on hover */
+    background-color: var(--interactive-primary);
   }
 
   .active {
-    @apply bg-white shadow-sm;
+    background-color: var(--interactive-secondary); /* Off-White/Ivory */
+    box-shadow: 0 1px 3px 0 var(--shadow);
   }
 
   .navLink {
-    @apply px-3 py-2 rounded-lg border border-transparent hover:bg-white hover:shadow-md cursor-pointer;
+    @apply px-3 py-2 rounded-lg border border-transparent cursor-pointer transition-all duration-200 ease-in-out;
+    color: var(--text-primary);
+  }
+
+  .navLink:hover {
+    background-color: var(--interactive-secondary); /* Off-White/Ivory */
+    box-shadow: 0 4px 6px -1px var(--shadow);
   }
 
   .hobbyBox {
-    @apply flex items-center justify-around px-5 py-4 bg-custom-lightGray rounded-3xl space-x-5 cursor-pointer hover:shadow-xl shadow-inner border border-transparent hover:border-gray-200;
+    @apply flex items-center justify-around px-5 py-4 rounded-3xl space-x-5 cursor-pointer hover:shadow-xl shadow-inner border border-transparent transition-all duration-200 ease-in-out;
+    background-color: var(--bg-tertiary);
+  }
+
+  .hobbyBox:hover {
+    border-color: var(--interactive-primary); /* Olive Green on hover */
+    background-color: var(--interactive-primary);
   }
 
   .hide-scrollbar::-webkit-scrollbar {
@@ -91,9 +156,9 @@ body {
 }
 
 
-.contact-button, .resume-button {
-  background-color: #5C637C; /* Example background color */
-  color: white;
+.contact-button {
+  background-color: var(--interactive-primary); /* Olive Green */
+  color: var(--text-inverse);
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -101,7 +166,7 @@ body {
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.contact-button:hover, .resume-button:hover {
+.contact-button:hover {
   transform: scale(1.05);
-  background-color: #4b5268; /* Slightly darker background on hover */
+  background-color: var(--interactive-hover); /* Darker Olive Green on hover */
 }
