@@ -13,7 +13,7 @@
         "university": "[Campusfy](https://www.campusfy.app/)",
         "degree": "Founder",
         "date": "Jan 2025 - May 2025",
-        "description": "AI-powered platform to help students find classes, professors, and more. Aggregated reviews, built a recommendation engine, and built a course catalog.\n\n1,500+ users // 4,000+ courses searched at UW-Madison.\n\nVenture shut down in May 2025 due to lack of commercial viability."
+        "description": "AI-powered platform to help students find classes, professors, and more. Aggregated reviews, built a recommendation engine, and built a course catalog.\n\n1,500+ users and 4,000+ courses searched at UW-Madison.\n\nVenture shut down in May 2025 due to lack of commercial viability."
       },
       {
         "id": 1,
@@ -148,6 +148,17 @@
     "project": [
       {
         "id": 0,
+        "title": "Campusfy",
+        "photos": [
+          "/projects/campusfy/campusfy1.png",
+          "/projects/campusfy/campusfy2.png",
+          "/projects/campusfy/campusfy3.png"
+        ],
+        "link": "https://www.campusfy.app/",
+        "description": "AI-powered platform to help students find classes, professors, and more. Aggregated reviews, indexed course data, and built a recommendation engine. Led promotion efforts on campus to gain 1,500+ users and 4,000+ courses searched at UW-Madison."
+      },
+      {
+        "id": 1,
         "title": "Lake Park Golf App",
         "photos": [
           "/projects/lpcc/lpcc_1.png",
@@ -156,10 +167,10 @@
           "/projects/lpcc/lpcc_4.png"
         ],
         "link": "https://lakepark.golf",
-        "description": "Turned a competitive hobby into a full-stack web app. So far, logged over 4,000 holes from 50+ active users! Hosted tournament sponsored by Northwestern Mutual."
+        "description": "Turned a competitive hobby into a full-stack web app. So far, logged over 5,000 holes from 75+ active users! Hosted tournament sponsored by Northwestern Mutual."
       },
       {
-        "id": 4,
+        "id": 2,
         "title": "Summer Volleyball Camps",
         "photos": [
           "/projects/bradfordbvc/bradfordbvc2.png",
@@ -170,18 +181,6 @@
         ],
         "link": "https://comidaandes.wixsite.com/2021",
         "description": "Designed custom t-shirts & volleyballs, recruited 82 participants, and hired 4 coaches. Five successful week-long camps at Bradford Beach, MKE, WI."
-      },
-      {
-        "id": 5,
-        "title": "Aerial Photography",
-        "photos": [
-          "/projects/rockymountain/rmp.jpg",
-          "/projects/rockymountain/rmp2.jpg",
-          "/projects/rockymountain/rmp3.jpg",
-          "/projects/rockymountain/rmp4.jpg"          
-        ],
-        "link": "https://www.rockymountainphotography.com/services/drone-denver/",
-        "description": "During my 2020 year in Denver, I enjoyed capturing shots of developing suburbs and construction sites using drones and cessna aircraft."
       },
       {
         "id": 3,
@@ -196,7 +195,19 @@
         "description": "During my semester in Peru, fundraised and kickstarted local chef Johan's online presence."
       },
       {
-        "id": 6,
+        "id": 4,
+        "title": "Aerial Photography",
+        "photos": [
+          "/projects/rockymountain/rmp.jpg",
+          "/projects/rockymountain/rmp2.jpg",
+          "/projects/rockymountain/rmp3.jpg",
+          "/projects/rockymountain/rmp4.jpg"          
+        ],
+        "link": "https://www.rockymountainphotography.com/services/drone-denver/",
+        "description": "During my 2020 year in Denver, I enjoyed capturing shots of developing suburbs and construction sites using drones and cessna aircraft."
+      },
+      {
+        "id": 5,
         "title": "EDEM Valencia, Spain",
         "photos": [
           "/projects/edem/edem.jpg",
