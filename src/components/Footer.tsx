@@ -19,11 +19,11 @@ const Footer: React.FC = () => {
         </Link>
 
         <span className="hidden text-base font-light text-custom-text-primary md:flex lg:text-lg">
-          © {date.getFullYear()} All right reserved | Last Updated: Aug 2, 2025
+          © {date.getFullYear()} Last Updated: Jan 21, 2026
         </span>
         <span className="flex flex-col items-center space-y-2 text-sm font-normal text-custom-text-primary md:hidden">
           <span className="text-xs text-custom-text-secondary">
-            © {date.getFullYear()} All right reserved | Last Updated: Aug 2, 2025
+            © {date.getFullYear()} Last Updated: Jan 21, 2026
           </span>
           <span>
             <a href="#" className="text-custom-text-inverse">Harrison Roloff</a>
