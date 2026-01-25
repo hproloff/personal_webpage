@@ -24,7 +24,25 @@ interface ThemeProviderProps {
 }
 
 export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
-  const [theme, setThemeState] = useState<Theme>('light');
+  // Initialize theme from data-theme attribute set by blocking script in _document.tsx
+  // This prevents flash of incorrect theme
+  const getInitialTheme = (): Theme => {
+    if (typeof window !== 'undefined') {
+      const dataTheme = document.documentElement.getAttribute('data-theme') as Theme;
+      if (dataTheme === 'dark' || dataTheme === 'light') {
+        return dataTheme;
+      }
+      // Fallback: check localStorage or default to dark
+      const savedTheme = localStorage.getItem('theme') as Theme;
+      if (savedTheme === 'dark' || savedTheme === 'light') {
+        return savedTheme;
+      }
+      return 'dark'; // Default to dark mode
+    }
+    return 'dark'; // Default to dark mode for SSR
+  };
+
+  const [theme, setThemeState] = useState<Theme>(getInitialTheme);
 
   const setTheme = (newTheme: Theme) => {
     setThemeState(newTheme);
@@ -38,13 +56,12 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
   };
 
   useEffect(() => {
-    // Check for saved theme preference or default to light
-    const savedTheme = localStorage.getItem('theme') as Theme;
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    
-    const initialTheme = savedTheme || (prefersDark ? 'dark' : 'light');
-    setTheme(initialTheme);
-  }, []);
+    // Sync with data-theme attribute in case it was set elsewhere
+    const dataTheme = document.documentElement.getAttribute('data-theme') as Theme;
+    if (dataTheme && dataTheme !== theme) {
+      setThemeState(dataTheme);
+    }
+  }, [theme]);
 
   useEffect(() => {
     // Apply CSS variables to document root

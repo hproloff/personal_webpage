@@ -21,11 +21,12 @@ const Section2: React.FC = () => {
                 <ul className="list-none m-0 p-0 border-gray-100">
                   {data[0]?.education?.map((edu, i) => (
                     <TimeLineItem
-                      key={edu.id}
+                      key={`${edu.id}-${i}`}
                       university={edu.university}
                       degree={edu.degree}
                       date={edu.date}
                       description={edu.description}
+                      collapsedByDefault={edu.collapsedByDefault}
                     />
                   ))}
                 </ul>
